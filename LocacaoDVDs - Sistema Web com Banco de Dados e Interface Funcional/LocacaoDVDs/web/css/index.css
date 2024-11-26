@@ -1,0 +1,140 @@
+/* Estilos da página e layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    display: flex;
+}
+
+/* Navbar lateral estilizada */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #2c3e50;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s;
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f1c40f;
+    cursor: pointer;
+}
+
+.sidebar-logo i {
+    margin-right: 15px; /* Aumentando a distância entre o ícone e o texto */
+    font-size: 1.2em; /* Ajuste no tamanho do ícone */
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #34495e;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #1abc9c;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+/* Conteúdo principal */
+.main-content {
+    margin-left: 270px; /* Ajuste para o novo tamanho da sidebar */
+    padding: 40px;
+    flex: 1;
+    background-color: #ecf0f1;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.main-content p {
+    line-height: 1.6;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.feature-box div {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.feature-box h3 {
+    font-size: 1.6em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.button-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #16a085;
+}
