@@ -20,4 +20,4 @@
 
 ## 🚀 Tecnologias Utilizadas  
 - **Front-End**: HTML5, CSS3, JavaScript.  
-- **Back-End**: Java e MariaDB. 
+- **Back-End**: Java e MySQL. 
