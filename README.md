@@ -1,23 +1,57 @@
 # LocacaoDVDs 📀  
 
-**LocacaoDVDs** é um sistema de controle de registros de DVDs, permitindo gerenciar informações sobre títulos, atores, gêneros e classificações. O projeto visa facilitar a administração dos dados de DVDs sem incluir funcionalidades de locação.  
+## 📹 Vídeo Demonstrativo  
+👉 **[Assista ao vídeo do projeto LocacaoDVDs](https://www.youtube.com/watch?v=5yUMNRytF8Q)** 👈  
+> *Veja na prática o funcionamento do sistema, com explicações sobre o desenvolvimento e as funcionalidades.*
 
-## 🛠 Desenvolvimento  
+---
 
-- **Interface e Funcionalidades**:  
-  - **Cadastro de DVDs**: Permite registrar DVDs com informações como título, ano de lançamento, atores principais e coadjuvantes, gênero e classificação etária.  
-  - **Cadastro de Atores, Gêneros e Classificações**: Gerenciamento das informações de atores (nome, sobrenome, data de estreia), gêneros (descrição) e classificações (descrição).  
-  - **Funcionalidades de CRUD**: Cadastro, edição e exclusão de DVDs, atores, gêneros e classificações.  
-  - **Visualização**: Exibição das informações de DVDs e registros de atores, gêneros e classificações em tabelas.  
-  - **Design responsivo**: Interface adaptável para diferentes dispositivos.  
+## 📌 Sobre o Projeto  
 
-**Tecnologias Java Utilizadas**:  
-  - **Servlets**: Implementação de lógica de controle no lado servidor.  
-  - **DAO (Data Access Object)**: Gerenciamento da interação com o banco de dados para operações CRUD.  
-  - **JSP (JavaServer Pages)**: Geração dinâmica de páginas web para a exibição de informações.  
-  - **JDBC**: Conexão e interação com o banco de dados.
-  - **Servlet Filters**: Implementação de funcionalidades como controle de acesso e autenticação.
+**LocacaoDVDs** é um sistema de controle de registros de DVDs, permitindo gerenciar informações sobre títulos, atores, gêneros e classificações.  
+> ❗ *Este projeto não inclui funcionalidades de locação, apenas o gerenciamento dos dados relacionados aos DVDs.*
 
-## 🚀 Tecnologias Utilizadas  
-- **Front-End**: HTML5, CSS3, JavaScript.  
-- **Back-End**: Java e MySQL. 
+---
+
+## 🛠 Funcionalidades Implementadas  
+
+- **Cadastro de DVDs**  
+  - Título  
+  - Ano de lançamento  
+  - Atores principais e coadjuvantes  
+  - Gênero  
+  - Classificação etária  
+
+- **Cadastro de Atores, Gêneros e Classificações**  
+  - Atores: nome, sobrenome, data de estreia  
+  - Gêneros: descrição  
+  - Classificações: descrição  
+
+- **Operações CRUD completas**  
+  - Criar, visualizar, editar e excluir registros de DVDs, atores, gêneros e classificações  
+
+- **Visualização em tabelas**  
+  - Listagem clara e organizada de todos os dados cadastrados  
+
+- **Interface Responsiva**  
+  - Adaptável para diferentes dispositivos (desktop e mobile)
+
+---
+
+## 🔧 Tecnologias Utilizadas  
+
+### 🖥️ Front-End  
+- HTML5  
+- CSS3  
+- JavaScript  
+
+### ⚙️ Back-End  
+- Java  
+  - Servlets  
+  - JSP (JavaServer Pages)  
+  - JDBC  
+  - DAO (Data Access Object)  
+  - Servlet Filters (para controle de acesso e autenticação)  
+- MySQL
+
+---
