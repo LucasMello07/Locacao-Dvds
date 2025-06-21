@@ -34,7 +34,7 @@
   - Listagem clara e organizada de todos os dados cadastrados  
 
 - **Interface Responsiva**  
-  - Adaptável para diferentes dispositivos (desktop e mobile)
+  - Adaptável para diferentes dispositivos
 
 ---
 
