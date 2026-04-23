@@ -1,4 +1,4 @@
-# LocacaoDVDs 📀
+# LocacaoDVDs 
 
 **Assista ao vídeo demonstrativo:** [https://www.youtube.com/watch?v=5yUMNRytF8Q](https://www.youtube.com/watch?v=5yUMNRytF8Q)
 
