@@ -1,57 +1,21 @@
-# LocacaoDVDs 📀  
+# LocacaoDVDs 📀
 
-## 📹 Vídeo Demonstrativo  
-👉 **[Assista ao vídeo do projeto LocacaoDVDs](https://www.youtube.com/watch?v=5yUMNRytF8Q)** 👈  
-> *Veja na prática o funcionamento do sistema, com explicações sobre o desenvolvimento e as funcionalidades.*
+**Assista ao vídeo demonstrativo:** [https://www.youtube.com/watch?v=5yUMNRytF8Q](https://www.youtube.com/watch?v=5yUMNRytF8Q)
 
----
+## Sobre o Projeto
+Sistema para controle e gerenciamento de registros de DVDs, permitindo administrar títulos, atores, gêneros e classificações etárias de forma organizada.
 
-## 📌 Sobre o Projeto  
+## Funcionalidades
+- **Gestão de Registros:** CRUD completo para DVDs e categorias relacionadas.
+- **Visualização:** Listagem clara em tabelas para fácil consulta.
+- **Responsividade:** Interface adaptada para diferentes tamanhos de tela.
 
-**LocacaoDVDs** é um sistema de controle de registros de DVDs, permitindo gerenciar informações sobre títulos, atores, gêneros e classificações.  
-> ❗ *Este projeto não inclui funcionalidades de locação, apenas o gerenciamento dos dados relacionados aos DVDs.*
+## Tecnologias
+- **Java:** Servlets, JSP, JDBC e DAO.
+- **Banco de Dados:** MySQL.
+- **Web:** HTML5, CSS3 e JavaScript.
 
----
-
-## 🛠 Funcionalidades Implementadas  
-
-- **Cadastro de DVDs**  
-  - Título  
-  - Ano de lançamento  
-  - Atores principais e coadjuvantes  
-  - Gênero  
-  - Classificação etária  
-
-- **Cadastro de Atores, Gêneros e Classificações**  
-  - Atores: nome, sobrenome, data de estreia  
-  - Gêneros: descrição  
-  - Classificações: descrição  
-
-- **Operações CRUD completas**  
-  - Criar, visualizar, editar e excluir registros de DVDs, atores, gêneros e classificações  
-
-- **Visualização em tabelas**  
-  - Listagem clara e organizada de todos os dados cadastrados  
-
-- **Interface Responsiva**  
-  - Adaptável para diferentes dispositivos
-
----
-
-## 🔧 Tecnologias Utilizadas  
-
-### 🖥️ Front-End  
-- HTML5  
-- CSS3  
-- JavaScript  
-
-### ⚙️ Back-End  
-- Java  
-  - Servlets  
-  - JSP (JavaServer Pages)  
-  - JDBC  
-  - DAO (Data Access Object)  
-  - Servlet Filters (para controle de acesso e autenticação)  
-- MySQL
-
----
+## Como Executar
+1. Configure o banco de dados MySQL.
+2. Importe o projeto em uma IDE Java (como Eclipse ou IntelliJ).
+3. Execute o servidor Tomcat para visualizar o sistema no navegador.
